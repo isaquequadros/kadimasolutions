@@ -1,0 +1,105 @@
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: #9AA2A2;
+    display: block;
+    margin: 8px;
+  }
+  
+.cabecalho {
+  width: 100%;
+  background-color: #47475D;
+  padding: 100px 8%;
+}
+
+  /* menu */
+  .menu {
+    width: 100%;
+    float: none;
+    background-color: #47475D;
+    padding: 18px 8%;
+}
+
+.menu ul{
+    float: left;
+}
+
+.menu ul a {
+    color: #9AA2A2;
+    margin-right: 25px;
+}
+
+.menu ul a:hover{
+    color: #000;
+}
+
+/* logo */
+.logo {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+
+  /* texto da pagina toda sem titulos */
+#box {
+  width: 40%;
+  margin-left: 50;
+  text-indent: 30px;
+  
+}
+
+/* texto */
+#pp {
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: left;
+  color: #000;
+  text-align: left;
+  text-indent: 30px;
+
+}
+
+#ph {
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: left;
+  color: #000;
+  text-align: left;
+  text-indent: 30px;
+  width: 40%;
+  margin-right: 50px;
+}
+
+
+.title{
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #000;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+/* rodape fim ---------------------------------- */
+
+footer{
+  font-family: 'Courier New', Courier, monospace;
+  color: #9AA2A2;
+  background-color: #47475D;
+  padding: 20px 10%;
+  margin-top: 80px;
+}
+
+footer a {
+  color: #9AA2A2;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.logo2 {
+  float: none;
+  margin-right: 30px;
+}
